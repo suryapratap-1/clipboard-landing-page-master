@@ -1,0 +1,107 @@
+@media screen and (max-width: 1185px) {
+    .section-1-feature {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section-1-image img {
+        width: 60%;
+        transform: none;
+    }
+
+    .section-1-feature-right {
+        padding-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .container {
+        width: 60%;
+    }
+    
+    section {
+        margin-top: 100px;
+    }
+
+    .section-1 {
+        margin-top: 20px;
+    }
+
+    .section-1-feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        padding-inline: 20%;
+    }
+
+    .section-1-image img {
+        width: 65%;
+        transform: none;
+    }
+
+    .section-1-feature-right {
+        gap: 50px;
+        padding: 0;
+    }
+
+    .section-2-image img {
+        width: 50%;
+    }
+
+    .section-1, .section-2, .section-3, .section-4{
+        margin-top: 80px;
+    }
+
+    .company-section {
+        margin-top: 120px;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .footer-area {
+        padding: 50px;
+    }
+
+    .footer-options {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 50px;  
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .section-3-features {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .buttons-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        width: 80%;
+        height: 40px;
+    }
+    
+    .company-section {
+        justify-content: center;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .footer-options {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
